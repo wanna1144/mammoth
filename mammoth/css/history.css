@@ -1,0 +1,74 @@
+
+.history_ban{width:100%; height:auto; position:relative;}
+.history_bg{background:url(../img/sub01_01_banner01.jpg) no-repeat center 0; background-size:auto; width:100%; height:600px; background-attachment: fixed;}
+.history_ban .history_body{position:absolute; margin:auto; width:1200px; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center;}
+.history_ban .history_tit{padding-bottom:25px; font-size:30px; color:#fff;}
+.history_ban .history_logo{background:url(../img/page01_logo.png) no-repeat center center; background-size:cover; width:147px; height:126px; margin:auto;}
+
+/* history main body style */
+.history_main{padding:100px 0;}
+.history_main .main_body{width:100%; max-width:1200px; margin:auto; text-align:center;}
+.history_main .main_tit_box h1{padding:10px; font-size:45px; color:#d71921;}
+.history_main .main_tit_box .main_tit_txt{padding-bottom:50px;}
+.history_main .main_tit_box .main_tit_txt>p{font-size:18px; font-weight:bold; color:#555; line-height:1.5em;}
+
+.history_info{position:relative; width:100%; margin:100px 0;}
+.history_info:before{content:''; position:absolute; width:14px; height:14px; border-radius:50%; background:#222; left:50%; transform:translateX(-50%); z-index:10;}
+.history_info:after{content:''; position:absolute; width:14px; height:14px; border-radius:50%; background:#222; left:50%; transform:translateX(-50%); z-index:10;}
+.history_info .line{position:absolute; width:2px; height:100%; left:50%; transform:translateX(-50%); background:#d5d5d5; overflow:hidden;}
+.history_info .line span{position:absolute; width:2px; top:0; left:0; background:#7b2124;}
+
+.history_con{width:100%; height:auto;}
+.history_con .history_li{width:100%; padding:60px 0; position:relative;}
+.history_con .history_left{width:50%; float:left; opacity:0;}
+.history_con .cont_imgbox_inner{width:100%; padding:0 17%;}
+.history_con .cont_imgbox_inner img{width:100%;}
+
+.history_con .history_right{width:50%; float:right;}
+.history_con .history_right .history_dot{position:relative; padding-bottom:30px; text-align:left;}
+.history_con .history_right .dot{position:absolute; left:0; width:24px; height:24px; border-radius:50%; background:#d71912; transform:translateX(-50%);}
+.history_con .history_right .dotyear{padding-left:50px; font-size:32px; font-weight:bold; color:#d71921;}
+.history_con .history_right .history_right_txt{padding-left:50px; opacity:0;}
+.history_con .history_right .history_right_txt li{text-align:left; display:flex;}
+.history_con .history_right .history_right_txt .right_num{padding-right:15px;}
+.history_con .history_right .history_right_txt .right_num p{font-size:14px; color:#555; line-height:25px;}
+
+.history_con .history_right .right_con_txt p{font-size:14px; color:#555; line-height:25px;}
+
+.history_con .history_lefts{width:50%; float:left;}
+.history_con .history_lefts .history_dot{position:relative; padding-bottom:30px; text-align:right;}
+.history_con .history_lefts .history_dot .dot{position:absolute; right:0; width:24px; height:24px; border-radius:50%; background:#d71921; transform:translateX(50%);}
+.history_con .history_lefts .history_dot .dotyear{padding-right:50px; font-size:32px; font-weight:bold; color:#d71921;}
+
+.history_con .history_lefts .history_left_txt{padding-right:50px; opacity:0;}
+.history_con .history_lefts .history_left_li{text-align:right; display:flex;}
+.history_con .history_lefts .left_con_txt{flex:auto;}
+.history_con .history_lefts .left_con_txt p{font-size:14px; color:#555; line-height:25px;}
+.history_con .history_lefts .left_num{padding-left:15px;}
+.history_con .history_lefts .left_num p{font-size:14px; color:#555; line-height:25px;}
+
+.history_con .history_right_img{width:50%; float:right; opacity:0;}
+
+/* left, right animation style */
+.fadeleft{animation:fadeleft 1s ease; animation-fill-mode:forwards; opacity:0; animation-duration:0.8s;}
+.faderight{animation:faderight 1s ease; animation-fill-mode:forwards; opacity:0; animation-duration:0.8s;}
+
+@keyframes fadeleft{
+  0%{transform:translateX(-80px); opacity:0;}
+  100%{transform:translateX(0); opacity:1;}
+}
+@keyframes faderight{
+  0%{transform:translateX(80px); opacity:0;}
+  100%{transform:translateX(0); opacity:1;}
+}
+
+
+
+
+
+
+
+
+
+
+/* --- */
